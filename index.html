@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourist.com</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="view1">
+            <div class="head">
+                <div class="lead">
+                    <img  id= "logo" src="logo.PNG" alt="logo">
+                    <span id="lead"><i class="ri-user-line"> Login or Create Account</i></span>
+                </div>
+
+                <div class="data">
+                    <div class="nav">
+                        <span><i class="ri-flight-takeoff-line">Flights</i></span>
+                        <span><i class="ri-hotel-line">Hotels</i></span>
+                        <span><i class="ri-home-8-line">Homes</i></span>
+                        <span><i class="ri-taxi-line">Cabs</i></span>
+                        <span><i class="ri-pass-valid-line">Visa</i></span>
+                        <span><i class="ri-currency-line">Forex</i></span>
+                        <span><i class="ri-menu-line">More</i></span>
+                    </div>
+
+                    <div class="wrapper"></div>
+
+                    <div class="btn">
+                        <button id="search">Search</button>
+                    </div>
+                </div>
+            </div>
+            <div class="fom">
+                <div class="form-box login">
+                    <span class="icon-close"><ion-icon name="close-circle-outline"></ion-icon></span>
+                    <h2>Login</h2>
+                    <form action="#">
+                        <div class="input-box">
+                            <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                            <input type="email" placeholder="Email" required>
+                            <!-- <label>Email</label> -->
+                        </div>
+                        <div class="input-box">
+                            <span class="icon"><ion-icon name="lock"></ion-icon></span>
+                            <input type="password" placeholder="Password" required>
+                            <!-- <label>Password</label> -->
+                        </div>
+                        <div class="remember-forget">
+                            <label><input type="checkbox">Remember me</label>
+                            <a href="#" >Forget Password?</a>
+                        </div>
+                        <button type="submit" id="login">Login</button>
+                        <div class="login-register">
+                            <p>Don't have a account? <a href="#" class="register-link">Register</a></p>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="form-box login">
+                    <span class="icon-close"><ion-icon name="close-circle-outline"></ion-icon></span>
+                    <h2>Register</h2>
+                    <form action="#">
+                        <div class="input-box">
+                            <span class="icon"><ion-icon name="person"></ion-icon></span>
+                            <input type="text" placeholder="User name" required>
+                            <!-- <label>Email</label> -->
+                        </div>
+
+                        <div class="input-box">
+                            <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                            <input type="email" placeholder="Email" required>
+                            <!-- <label>Email</label> -->
+                        </div>
+                        <div class="input-box">
+                            <span class="icon"><ion-icon name="lock"></ion-icon></span>
+                            <input type="password" placeholder="Password" required>
+                            <!-- <label>Password</label> -->
+                        </div>
+                        <div class="remember-forget">
+                            <label><input type="checkbox">Remember me</label>
+                            <a href="#" >Forget Password?</a>
+                        </div>
+                        <button type="submit" id="login">Register</button>
+                        <div class="login-register">
+                            <p>Alredy have a account? <a href="#" class="register-link">Login</a></p>
+                        </div>
+                    </form>
+                </div>
+           
+
+            </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+</body>
+</html>
